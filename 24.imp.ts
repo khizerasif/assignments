@@ -1,0 +1,20 @@
+let animal: string = 'cat';
+let fruit: string = 'apple';
+let temperature: number = 28;
+let time: number = 14;
+let colors: string[] = ['red', 'green', 'blue'];
+let month: string = 'July';
+
+console.log(animal == 'dog');  
+console.log(fruit == 'banana');
+console.log(temperature >= 25);
+console.log(time < 12);
+console.log(colors.includes('green'));
+console.log(!colors.includes('yellow'));
+console.log(fruit.toLowerCase() === 'apple');
+console.log(month.toLowerCase() === 'june');
+console.log(temperature !== 30);
+console.log(time > 10 && time < 20);
+console.log(temperature >= 30 || time > 15);
+console.log(colors.includes('purple') && temperature < 20);
+console.log(colors.includes('red') || month === 'August');
